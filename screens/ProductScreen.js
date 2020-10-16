@@ -70,7 +70,7 @@ const ProductScreen = ({ navigation }) => {
                     <ScrollView style={{bottom: 15}} showsHorizontalScrollIndicator={false} horizontal={true} >
                         <View style={{ flexDirection: "row"}}>
                             <BestSellers imageUri={require("../assets/sofa_four.jpg")} store="Zara Furniture World" off="Get 20% off" />
-                            <BestSellers imageUri={require("../assets/chair_two.jpg")} store="Zara Furniture World" off="Get 20% off" />
+                            <BestSellers imageUri={require("../assets/chair_two.jpg")} store="Fara Furniture World" off="Get 20% off" />
                         </View>
                    </ScrollView>
             </View>
