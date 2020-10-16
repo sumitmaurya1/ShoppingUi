@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "eCommerce",
+    "slug": "eCommerce",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "Simple react native furniture Ecommerce  app click on furniture tab in categories to proceed futher and to see product click on to mordern  categories tab to see the product description"
+  }
+}
