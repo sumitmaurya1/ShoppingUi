@@ -12,7 +12,7 @@ const ProductScreen = ({ navigation }) => {
     const changeComponent = () => {
         console.log("tapped")
         navigation.navigate('SingleProduct')
-    }
+    } 
 
     return (
         <SafeAreaView style={{flex: 1, backgroundColor: colors.thinGray}}> 
@@ -71,8 +71,6 @@ const ProductScreen = ({ navigation }) => {
                         <View style={{ flexDirection: "row"}}>
                             <BestSellers imageUri={require("../assets/sofa_four.jpg")} store="Zara Furniture World" off="Get 20% off" />
                             <BestSellers imageUri={require("../assets/chair_two.jpg")} store="Zara Furniture World" off="Get 20% off" />
-                            <BestSellers imageUri={require("../assets/sofa_one.jpg")} store="Zara Furniture World" off="Get 20% off" />
-
                         </View>
                    </ScrollView>
             </View>
